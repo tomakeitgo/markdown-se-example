@@ -1,0 +1,11 @@
+(___define___ style ( _target )  (
+    <link rel="stylesheet" type="text/css"   (___no_spaces___ href=" _target ">)
+))
+(___define___ html ( _styles _body ) (
+<html>
+    <head>
+        _styles
+     </head>
+    <body> _body </body>
+</html>
+) )

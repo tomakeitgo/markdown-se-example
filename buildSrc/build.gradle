@@ -1,0 +1,7 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.tomakeitgo.markdown:markdown-se:1.0.2'
+}

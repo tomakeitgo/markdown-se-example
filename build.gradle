@@ -1,0 +1,9 @@
+apply plugin: com.tomakeitgo.markdown.se.MarkdownPlugin
+
+group 'com.tomakeitgo.markdown'
+version '1.0-SNAPSHOT'
+
+task css(type: Copy ){
+    from 'src/main/css'
+    into 'build/markdown/css'
+}
