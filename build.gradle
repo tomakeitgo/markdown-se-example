@@ -3,7 +3,16 @@ apply plugin: com.tomakeitgo.markdown.se.MarkdownPlugin
 group 'com.tomakeitgo.markdown'
 version '1.0-SNAPSHOT'
 
-task css(type: Copy ){
+task css(type: Copy) {
     from 'src/main/css'
     into 'build/markdown/css'
 }
+
+task javascript(type: Copy){
+    from 'src/main/javascript'
+    into 'build/markdown/js'
+}
+
+task build {}
+
+build.dependsOn( 'css', 'javascript', 'convert' )

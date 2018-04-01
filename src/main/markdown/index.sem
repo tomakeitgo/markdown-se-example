@@ -3,6 +3,7 @@
         (style css/main.css )
         (style css/main.css )
         (style css/main.css )
+        (script js/main.js  )
     )
 
     hello world

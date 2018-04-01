@@ -1,6 +1,11 @@
 (___define___ style ( _target )  (
     <link rel="stylesheet" type="text/css"   (___no_spaces___ href=" _target ">)
 ))
+
+(___define___ script ( _target ) (
+    <script type="text/javascript" (___no_spaces___ src=" _target ">)</script>
+))
+
 (___define___ html ( _styles _body ) (
 <html>
     <head>
