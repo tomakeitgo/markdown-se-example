@@ -1,0 +1,7 @@
+.gradle/*
+.idea/*
+build/*
+buildSrc/.gradle/*
+buildSrc/.build/*
+out/*
+markdown-se-example.iml
